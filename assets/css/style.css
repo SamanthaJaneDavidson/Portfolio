@@ -1,9 +1,14 @@
 body {
-   background-image: url(/assets/images/digital-background-with-cybernetic-particles.jpg);
+   /*background-image: url("./assets/images/digital-background-with-cybernetic-particles.jpg");*/
+}
+
+body {
+    background-color: blueviolet;
 }
 
 header {
     padding: 0px;
+    margin: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: gray;
     color: whitesmoke;
@@ -13,6 +18,23 @@ header h1 {
     display: inline-block;
     font-size: 30px;
 }
+
+.sam-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 2px;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
 
 a {
 
@@ -30,4 +52,19 @@ a {
     display: inline-block;
     margin-left: 0px;
 
+}
+.content {
+
+}
+
+.about-me {
+
+}
+
+.projects {
+    
+}
+
+.contact {
+    
 }
