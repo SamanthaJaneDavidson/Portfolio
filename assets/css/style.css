@@ -1,0 +1,33 @@
+body {
+   background-image: url(/assets/images/digital-background-with-cybernetic-particles.jpg);
+}
+
+header {
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
+    color: whitesmoke;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 30px;
+}
+
+a {
+
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#links  { 
+    padding: 15px;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 0px;
+
+}
