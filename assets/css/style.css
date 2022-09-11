@@ -2,16 +2,20 @@ body {
    /*background-image: url("./assets/images/digital-background-with-cybernetic-particles.jpg");*/
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: blueviolet;
+    background-color: white;
 }
 
 header {
-    padding: 0px;
-    margin: 0px;
+    padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: gray;
     color: whitesmoke;
+    height: fit-content;
 }
 
 header h1 {
@@ -19,22 +23,36 @@ header h1 {
     font-size: 30px;
 }
 
-.sam-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto;
-    border-style: solid;
-    border-width: 2px;
+.sam-avatar {
+
 }
 
 img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
 }
 
+#profile-info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+} 
+
+.sam-info {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 20px;
+
+}
+.about-contact {
+    margin: 0;
+    float: right;
+    width: 75%;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: white
+   
+}
 
 a {
 
@@ -44,7 +62,7 @@ a {
 }
 
 #links  { 
-    padding: 15px;
+    padding: 20px;
     float: right;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
@@ -53,18 +71,46 @@ a {
     margin-left: 0px;
 
 }
-.content {
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 100%;
+    height: 100%;
+    border: 10px;
+    margin: 10px;
 
 }
 
-.about-me {
-
+#camping {
+    flex: 0 0 1100px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
 }
 
-.projects {
-    
+#rock-concert {
+    flex: 0 0 500px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
 }
-
-.contact {
-    
+#dogs {
+    flex: 0 0 800px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+#cocktails {
+    flex: 0 0 800px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
 }
