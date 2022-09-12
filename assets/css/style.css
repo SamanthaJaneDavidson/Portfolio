@@ -84,11 +84,25 @@ main {
 
 }
 
+.container {
+    position: relative;
+}
+
 #camping {
     flex: 2 1 1100px;
     padding: 10px;
     text-align: center;
     border-width: 1px;
+    position: relative;
+}
+
+#camping-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: black;
+    color: whitesmoke;
+
 }
 
 #rock-concert {
@@ -96,6 +110,25 @@ main {
     padding: 10px;
     text-align: center;
     border-width: 1px;
+    position: relative
+}
+
+.box-caption {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 200px;
+    margin: 0;
+    padding: 0.5rem;
+    word-break: break-word;
+    background-color: rgba(0,0,0,.3);
+    color: rgb(161, 153, 153)
+
+}
+
+h4 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #cocktails {
