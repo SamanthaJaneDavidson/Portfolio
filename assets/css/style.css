@@ -43,6 +43,7 @@ img {
     list-style-type: none;
     margin: 0;
  
+ 
 }
 
 /*a {
@@ -52,7 +53,7 @@ img {
     margin-left: 15px;
 } */
 
-#links  { 
+.links  { 
     padding: 30px;
     float: right;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
