@@ -1,10 +1,6 @@
-
-body {
-   /*background-image: url("./assets/images/digital-background-with-cybernetic-particles.jpg");*/
-}
-
 * {
     box-sizing: border-box;
+
 }
 
 body {
@@ -21,11 +17,7 @@ header {
 
 header h1 {
     display: inline-block;
-    font-size: 30px;
-}
-
-.sam-avatar {
-
+    font-size: 35px;
 }
 
 img {
@@ -44,31 +36,31 @@ img {
     font-size: 20px;
 
 }
-.about-contact {
+
+
+#contact-info {
+    display: inline-block;
+    list-style-type: none;
     margin: 0;
-    float: right;
-    width: 75%;
-    height: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: white
-   
+ 
 }
 
-a {
+/*a {
 
-    color: #ffffff;
+    color: white;
     display: inline-block;
     margin-left: 15px;
-}
+} */
 
 #links  { 
-    padding: 20px;
+    padding: 30px;
     float: right;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     list-style-type: none;
     display: inline-block;
-    margin-left: 0px;
+    margin-left: 15px;
+    color: whitesmoke;
 
 }
 
@@ -104,14 +96,7 @@ main {
     text-align: center;
     border-width: 1px;
 }
-/*
-#dogs {
-    flex: 1 0 500px;
-    padding: 10px;
-    text-align: center;
-    border-width: 1px;
-}
-*/
+
 #cocktails {
     flex: 1 0 600px;
     flex-basis: auto;
@@ -125,4 +110,20 @@ main {
     padding: 10px;
     text-align: center;
     border-width: 1px;
+}
+
+footer {
+    text-align: center;
+    font size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    header,
+    nav,
+    main { 
+        flex-direction: column;
+    }
+    aside {
+        order: 2
+    }
 }
