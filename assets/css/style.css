@@ -18,11 +18,14 @@ header {
   
 }
 
-a   {
+/* a   {
     font-style: normal;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-}
+    color: blue;
+    display: inline-block;
+    margin-left: 15px;
+} */
 
 h1 {
     display: inline-block;
@@ -59,9 +62,7 @@ h2 {
     padding: 10px;   
     margin-left: 10px; 
 }
-#about-me {
-  
-}
+
 
 #sam-avatar {
     display: flex;
@@ -70,6 +71,7 @@ h2 {
 
 #contact {
     padding-top: 20px;
+    margin-top: 20px;
 
 }
 
@@ -78,13 +80,7 @@ h2 {
     list-style-type: none;
 
 }
-
-a {
-
-    color: blue;
-    display: inline-block;
-    margin-left: 15px;
-} 
+ 
 
 .links  { 
     padding: 30px;
