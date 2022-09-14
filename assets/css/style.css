@@ -65,7 +65,7 @@ h2 {
 
 #sam-avatar {
     display: flex;
-    flex: 2 1 300px;
+    flex: 0 0 300px;
 }
 
 #contact {
@@ -183,11 +183,16 @@ footer {
 
 @media screen and (max-width: 768px) {
     header,
-    nav,
-    figure,
     aside,
     main { 
         flex-direction: column;
+        text-align: left;
+        flex-wrap: wrap;
     }
-
+    #sam-avatar {
+        display: none;
+    }
+    .links {
+        display: none;
+    }
 }
