@@ -1,15 +1,17 @@
+
 body {
    margin: 10px;
+   --purple-color: rgb(125, 75, 166);
+ 
 }
 
 header {
     padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: whitesmoke;
+    color: var(--purple-color);
     height: fit-content;
     font-weight: bolder;
     margin-left: 10px;
-    background-image: url("../images/digital-background.jpg");
   
 }
 
@@ -19,6 +21,7 @@ nav li a {
     text-decoration: none;
     font: bolder;
     font-size: 25px;
+    color: var(--purple-color);
  }
 
  .links  { 
@@ -201,6 +204,21 @@ footer {
 }
 
 @media screen and (max-width: 962px) {
+    body { 
+        flex-direction: column;
+        text-align: left;
+        flex-wrap: wrap;
+    }
+    #sam-avatar {
+        display: none;
+    }
+    .links {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 640) {
     body { 
         flex-direction: column;
         text-align: left;
