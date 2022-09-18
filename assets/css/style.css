@@ -2,47 +2,30 @@
 body {
    margin: 10px;
    --purple-color: rgb(125, 75, 166);
- 
-}
-
-header {
-    padding: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: var(--purple-color);
-    height: fit-content;
-    font-weight: bolder;
-    margin-left: 10px;
-  
-}
-
-nav li a {
-    margin-left: 30px;
-    text-decoration: none;
-    font: bolder;
-    font-size: 25px;
-    color: var(--purple-color);
- }
-
- .links  { 
-    padding: 30px;
-    float: right;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 15px;
 
 }
-
 
 h1 {
     display: inline-block;
     font-size: 60px;
     font-weight: bold;
     text-align: center;
+}
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 10px;   
+    margin: 10px;
+    width: 100%;
 }
 
 img {
@@ -51,11 +34,44 @@ img {
     display: block;
 }
 
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    margin-bottom: 20px;
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--purple-color);
+    height: fit-content;
+    font-weight: bolder;
+    margin-left: 10px;
+  
 }
+
+ #main-nav {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+ }
+ 
+ #main-nav li a {
+    margin-left: 30px;
+    text-decoration: none;
+    font: bolder;
+    font-size: 25px;
+    color: var(--purple-color);
+    align-content: center;
+   
+ }
+
+ .links ul { 
+    list-style-type: none;
+    display: flex;
+    margin-left: 15px;
+    font-size: 15px;
+    justify-content: center;
+    height: 100%;
+
+}
+
 
 #profile-info {
     display: flex;
@@ -90,26 +106,17 @@ h2 {
 }
 
 #contact-info {
-    display: inline-block;
+    display: flex;
     list-style-type: none;
 
 }
 
-aside li a {
+ #contact-info li a {
     margin-left: 20px;
     color: blue;
 }
 
-h3 {
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    padding: 10px;   
-    margin: 10px;
-}
-
-main {
+#projects {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -217,15 +224,15 @@ footer {
         width: 100%;
     }
 
-    main {
+    #project-info {
         display: flex;
         flex-direction: column;
         flex-basis: content;
     }
 
-    .links {
+    /* .links {
        display: none;
-    }
+    } */
 }
 
 @media screen and (max-width: 767px) {
@@ -236,7 +243,7 @@ footer {
         margin: 0;
         font-size: 50%;
     }
-    .background {
+    .profile {
         font-size: 50%;
     }
     #sam-avatar {

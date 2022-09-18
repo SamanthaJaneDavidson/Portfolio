@@ -17,20 +17,24 @@
 
 <body>
 
-<div class=background>
-    <header>
-        <h1>Samantha Davidson</h1>
-        <nav class="links">
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <h1>Samantha Davidson</h1>
+    <nav id="main-nav" class="links">
+        <ul>
+            <li>
+                <a href="#about-me">About Me</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
+<main>
 <div id="profile-info">
     <section>
         <figure id="sam-avatar">
@@ -38,7 +42,7 @@
         </figure>
     </section>
 
-    <aside class="sam-info">
+    <div class="sam-info">
         <section id="about-me">
             <h2>About Me</h2>
             <p>Hello! My name is Sam and I am Philadelphia based (soon to be) full stack developer. Hopefully I will have a lot more to say in this section very shortly. For now, here are some random facts about me for entertainment and placeholder space. Some of my interests are all things Ancient Greece, hanging out with my dogs, sci-fi/fantasy, and going to punk shows.</p>
@@ -46,21 +50,18 @@
 
         <section id="contact">
             <h2>Contact Information</h2>
-            <li id="contact-info">
-                <a target="_blank" href="mailto:samanthajanedavidson@gmail.com">Email</a>
-                <a target="_blank" href="https://github.com/SamanthaJaneDavidson">Github</a>
-                <a target="_blank" href="https://www.linkedin.com/in/samantha-davidson-b0510878/">LinkedIn</a>
-            </li>      
+            <ul id="contact-info">
+                <li><a target="_blank" href="mailto:samanthajanedavidson@gmail.com">Email</a></li>
+                <li><a target="_blank" href="https://github.com/SamanthaJaneDavidson">Github</a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/samantha-davidson-b0510878/">LinkedIn</a></li> 
+            </ul>     
         </section>
-    </aside> 
+    </div> 
 </div>
-</div>
-    
-<Section id="projects">
-    <h3>Project Portfolio</h3>
-</Section>
 
-<main>
+
+<div id="projects">
+    <h3>Project Portfolio</h3>
     <section id="camping">
         <a target="_blank" href="https://samanthajanedavidson.github.io/Code-Refactor/"><img src="./assets/images/camping2.jpeg" alt="Camping Finder"></a>
         <h4 class="box-caption">Camp Finder</h4>
@@ -80,11 +81,12 @@
         <a target="_blank" href="https://samanthajanedavidson.github.io/Code-Refactor/"><img src="./assets/images/old_books.webp" alt="Old Books Placeholder"></a>
         <h4 class="box-caption">The Archives</h4>
     </section>
+</div>
 </main>
 
-<Footer>
+<footer>
     <p>Made with a lot of frustration by Sam</p>
-</Footer>
+</footer>
 
 </body>
 
