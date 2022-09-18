@@ -17,7 +17,6 @@ header {
 
 nav li a {
     margin-left: 30px;
-    color: whitesmoke; 
     text-decoration: none;
     font: bolder;
     font-size: 25px;
@@ -49,6 +48,7 @@ h1 {
 img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 h2 {
@@ -210,24 +210,21 @@ footer {
 }
 
 @media screen and (max-width: 1280px) {
-    /* body { 
+    body { 
         flex-direction: column;
         text-align: left;
         flex-wrap: wrap;
         width: 100%;
-    } */
+    }
 
     main {
         display: flex;
         flex-direction: column;
         flex-basis: content;
+    }
 
-    }
-    #sam-avatar {
-        display: none;
-    }
     .links {
-        display: none;
+       display: none;
     }
 }
 
@@ -237,6 +234,10 @@ footer {
         text-align: left;
         flex-wrap: wrap;
         margin: 0;
+        font-size: 50%;
+    }
+    .background {
+        font-size: 50%;
     }
     #sam-avatar {
         display: none;
@@ -247,10 +248,14 @@ footer {
     main {
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
+        margin: 10px;
     }
-    #camping {
-        flex: 0 0 500px;
-        padding: 0;
 
-    }
+   #camping {
+    flex: 0 0 250px;
+   }
+   #rock-concert {
+    flex: 0 0 150px;
+   }
 }
