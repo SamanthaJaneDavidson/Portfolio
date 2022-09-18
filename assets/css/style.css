@@ -48,6 +48,7 @@ h1 {
 
 img {
     width: 100%;
+    height: auto;
 }
 
 h2 {
@@ -104,7 +105,8 @@ h3 {
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    margin: 0;
+    padding: 10px;   
+    margin: 10px;
 }
 
 main {
@@ -128,6 +130,7 @@ main {
     border-width: 20px;
     position: relative;
     opacity: .65;
+    width: 100%;
 
 }
 
@@ -143,6 +146,7 @@ main {
     border-width: 1px;
     position: relative;
     opacity: .65;
+    width: 100%;
     
 }
 
@@ -177,6 +181,7 @@ h4 {
     border-width: 1px;
     position: relative;
     opacity: .65;
+
 }
 
 #cocktails:hover {
@@ -191,6 +196,7 @@ h4 {
     border-width: 1px;
     position: relative;
     opacity: .65;
+
 }
 
 #old-books:hover {
@@ -203,11 +209,19 @@ footer {
 
 }
 
-@media screen and (max-width: 962px) {
-    body { 
+@media screen and (max-width: 1280px) {
+    /* body { 
         flex-direction: column;
         text-align: left;
         flex-wrap: wrap;
+        width: 100%;
+    } */
+
+    main {
+        display: flex;
+        flex-direction: column;
+        flex-basis: content;
+
     }
     #sam-avatar {
         display: none;
@@ -215,14 +229,14 @@ footer {
     .links {
         display: none;
     }
-
 }
 
-@media screen and (max-width: 640) {
+@media screen and (max-width: 767px) {
     body { 
         flex-direction: column;
         text-align: left;
         flex-wrap: wrap;
+        margin: 0;
     }
     #sam-avatar {
         display: none;
@@ -230,5 +244,13 @@ footer {
     .links {
         display: none;
     }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    #camping {
+        flex: 0 0 500px;
+        padding: 0;
 
+    }
 }
