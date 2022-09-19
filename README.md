@@ -6,7 +6,7 @@ The goal of this project was to was to create a professional portfolio website. 
 ## Site Image
 ![Sam's Profile Screenshot](./assets/images/site-screenshot.png)
 
-To visit the site click [here](https://samanthajanedavidson.github.io/Code-Refactor/#social-media-marketing). 
+To visit the site click [here](https://samanthajanedavidson.github.io/Portfolio/). 
 
 ## License
 Please refer to the license in the repo. 
