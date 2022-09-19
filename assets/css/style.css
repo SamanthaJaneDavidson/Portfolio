@@ -2,7 +2,6 @@
 body {
    margin: 10px;
    --purple-color: rgb(125, 75, 166);
-
 }
 
 h1 {
@@ -43,13 +42,11 @@ header {
     height: fit-content;
     font-weight: bolder;
     margin-left: 10px;
-  
 }
 
  #main-nav {
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif; 
  }
  
  #main-nav li a {
