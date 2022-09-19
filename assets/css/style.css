@@ -1,7 +1,9 @@
+:root {
+    --purple-color: rgb(125, 75, 166);
+}
 
 body {
    margin: 10px;
-   --purple-color: rgb(125, 75, 166);
 }
 
 h1 {
