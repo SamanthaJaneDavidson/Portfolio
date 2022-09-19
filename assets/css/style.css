@@ -27,6 +27,12 @@ h3 {
     width: 100%;
 }
 
+h4 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -66,7 +72,6 @@ header {
     font-size: 15px;
     justify-content: center;
     height: 100%;
-
 }
 
 
@@ -99,13 +104,11 @@ header {
 #contact {
     padding-top: 20px;
     margin-top: 20px;
-
 }
 
 #contact-info {
     display: flex;
     list-style-type: none;
-
 }
 
  #contact-info li a {
@@ -123,7 +126,6 @@ header {
     height: 100%;
     border: 10px;
     margin: 10px;
-
 }
 
 
@@ -135,7 +137,6 @@ header {
     position: relative;
     opacity: .65;
     width: 100%;
-
 }
 
 #camping:hover {
@@ -150,8 +151,7 @@ header {
     border-width: 1px;
     position: relative;
     opacity: .65;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 #rock-concert:hover {
@@ -168,13 +168,6 @@ header {
     word-break: break-word;
     background-color: rgba(0,0,0,.3);
     color: whitesmoke
-
-}
-
-h4 {
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
 }
 
 #cocktails {
@@ -185,7 +178,6 @@ h4 {
     border-width: 1px;
     position: relative;
     opacity: .65;
-
 }
 
 #cocktails:hover {
@@ -200,7 +192,6 @@ h4 {
     border-width: 1px;
     position: relative;
     opacity: .65;
-
 }
 
 #old-books:hover {
@@ -210,7 +201,6 @@ h4 {
 footer {
     text-align: center;
     font-size: 20px;
-
 }
 
 @media screen and (max-width: 1280px) {
@@ -226,10 +216,6 @@ footer {
         flex-direction: column;
         flex-basis: content;
     }
-
-    /* .links {
-       display: none;
-    } */
 }
 
 @media screen and (max-width: 767px) {
@@ -240,24 +226,38 @@ footer {
         margin: 0;
         font-size: 50%;
     }
+
+    h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    h2, h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
     .profile {
         font-size: 50%;
     }
+
     #sam-avatar {
         display: none;
     }
+
     .links {
         display: none;
     }
+
     main {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         margin: 10px;
     }
-#projects section {
-    width: 100%;
-    flex: 1 1 auto !important;
 
-}
+    #projects section {
+        width: 100%;
+        flex: 1 1 auto !important;
+    }
 }
