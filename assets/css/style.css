@@ -172,8 +172,8 @@ header {
     color: whitesmoke
 }
 
-#cocktails {
-    flex: 1 0 600px;
+#tacos {
+    flex: 1 0 200px;
     flex-basis: auto;
     padding: 10px;
     text-align: center;
@@ -182,7 +182,7 @@ header {
     opacity: .65;
 }
 
-#cocktails:hover {
+#tacos:hover {
     opacity: 1;
 }
 
