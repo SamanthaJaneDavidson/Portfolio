@@ -131,8 +131,8 @@ header {
 }
 
 
-#camping {
-    flex: 2 1 1100px;
+/* #camping {
+    flex: 2 1 500px;
     padding: 10px;
     text-align: center;
     border-width: 20px;
@@ -143,11 +143,11 @@ header {
 
 #camping:hover {
     opacity: 1;
-}
+} */
 
 
-#rock-concert {
-    flex: 1 0 500px;
+#grrrrinder {
+    flex: 1 0 550px;
     padding: 10px;
     text-align: center;
     border-width: 1px;
@@ -156,7 +156,7 @@ header {
     width: 100%;  
 }
 
-#rock-concert:hover {
+#grrrrinder:hover {
     opacity: 1;
 }
 
@@ -173,7 +173,7 @@ header {
 }
 
 #tacos {
-    flex: 1 0 200px;
+    flex: 0 0 100px;
     flex-basis: auto;
     padding: 10px;
     text-align: center;
@@ -208,9 +208,9 @@ footer {
 @media screen and (max-width: 1280px) {
     body { 
         flex-direction: column;
-        text-align: left;
+        text-align: center;
         flex-wrap: wrap;
-        width: 100%;
+        width: auto;
     }
 
     #project-info {
@@ -232,6 +232,7 @@ footer {
     h1 {
         font-size: 40px;
         text-align: center;
+        align-items: center;
     }
 
     h2, h3 {
@@ -241,6 +242,12 @@ footer {
 
     .profile {
         font-size: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    p {
+        font-size: 75%;
     }
 
     #sam-avatar {
